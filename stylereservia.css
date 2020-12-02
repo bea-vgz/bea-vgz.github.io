@@ -220,7 +220,7 @@ nav a:hover
 
 }
 
-@media screen and (min-width: 600px)
+@media screen and (max-width: 600px)
 {
 
   .logo
@@ -281,7 +281,7 @@ font-size: 1.2rem;
 }
 
 
-@media screen and (min-width: 600px)
+@media screen and (max-width: 600px)
 {
 
   .titre
@@ -356,7 +356,7 @@ margin-left: -0.1rem;
 }
 
 
-@media screen and (min-width: 600px)
+@media screen and (max-width: 600px)
 {
   .recherche
   {
@@ -432,7 +432,7 @@ margin-left: -0.1rem;
 	
 }
 
-@media screen and (min-width: 600px)
+@media screen and (max-width: 600px)
 {
   #conteneurfiltresite
   {
@@ -492,7 +492,7 @@ margin-left: -0.1rem;
 	align-items: center;
 }
 
-@media screen and (min-width: 600px)
+@media screen and (max-width: 600px)
 {
   .infoicon
   {
@@ -546,7 +546,7 @@ margin-left: -0.1rem;
   font-size: 22px;
 }
 
-@media screen and (min-width: 600px)
+@media screen and (max-width: 600px)
 {
   #conteneur_global
   {
@@ -641,7 +641,7 @@ margin-left: -0.1rem;
 
 }
 
-@media screen and (min-width: 600px)
+@media screen and (max-width: 600px)
 {
   #conteneur_hebergement_ligne1, #conteneur_hebergement_ligne2
   {
@@ -680,7 +680,7 @@ margin-left: -0.1rem;
 }
 
 
-@media screen and (min-width: 600px)
+@media screen and (max-width: 600px)
 {
   .afficherplus a
   {
@@ -777,7 +777,7 @@ margin-left: -0.1rem;
 	font-family: ralewaybold;
 }
 
-@media screen and (min-width: 600px)
+@media screen and (max-width: 600px)
 {
   #conteneur_lespluspopulaires
   {
@@ -901,7 +901,7 @@ margin-left: -0.1rem;
   margin-top: 1rem;
 }
 
-@media screen and (min-width: 600px)
+@media screen and (max-width: 600px)
 {
   #conteneur_activités
   {
