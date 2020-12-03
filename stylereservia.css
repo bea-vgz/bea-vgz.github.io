@@ -220,6 +220,12 @@ nav a:hover
 
 }
 
+ .hebergement_nav
+ {
+  border-top: 3px solid #0065FC;
+  padding-top: 1.3rem;
+ }
+
 @media screen and (max-width: 600px)
 {
 
@@ -230,18 +236,38 @@ nav a:hover
   margin-left: 1.2rem;
   }
 
- nav
- {
- 	width: auto;
- 	text-align: left;
-
- }
-
  nav ul
  {	
  	float: left;
   margin-top: 5rem;
   margin-left: 2rem;
+
+ }
+
+ nav li
+ {
+ 
+ }
+
+ nav a
+ {
+  border-top: none;
+  border-bottom: 3px solid #F2F2F2;
+  padding-bottom: 1.3rem;
+ }
+
+ nav a:hover
+ {
+
+  border-top: none;
+  width: 50%;
+  padding-bottom: 1.3rem;
+ 
+ }
+
+ .hebergement_nav
+ {
+  border-bottom: 3px solid #0065FC;
  }
 
 }
@@ -655,7 +681,9 @@ margin-left: -0.1rem;
   {
     margin-bottom: 1rem;
     margin-left: -2rem;
+    max-width: 100%;
   }
+
 
 }
 
