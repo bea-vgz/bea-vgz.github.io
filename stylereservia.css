@@ -207,11 +207,6 @@ nav a
     text-decoration: none;
 }
 
-.activités_nav
-{
-  color: black;
-}
-
 nav a:hover
 {
     color: #0065FC;
@@ -224,29 +219,40 @@ nav a:hover
  {
   border-top: 3px solid #0065FC;
   padding-top: 1.3rem;
+  
  }
+
+.activités_nav
+{
+  color: black;
+  
+}
+
+
+
 
 @media screen and (max-width: 600px)
 {
 
   .logo
   {
-  width: 90px;
+  width: 100px;
   height: auto;
-  margin-left: 1.2rem;
+  margin-left: 2rem;
   }
+
 
  nav ul
  {	
- 	float: left;
-  margin-top: 5rem;
-  margin-left: 2rem;
+ display: flex;
+}
 
- }
 
  nav li
  {
- 
+ margin-bottom: 2rem;
+ order: ;
+
  }
 
  nav a
@@ -262,11 +268,13 @@ nav a:hover
   border-top: none;
   width: 50%;
   padding-bottom: 1.3rem;
+  border-bottom: 3px solid #0065FC;
  
  }
 
  .hebergement_nav
  {
+  border-top: none;
   border-bottom: 3px solid #0065FC;
  }
 
@@ -667,24 +675,32 @@ margin-left: -0.1rem;
 
 }
 
+.etoile_none
+{
+  color: #D1D0D0;
+}
+
 @media screen and (max-width: 600px)
 {
   #conteneur_hebergement_ligne1, #conteneur_hebergement_ligne2
   {
     width: auto;
     padding-bottom: 0rem;
-    margin-left: -3rem;
-
+    margin-left: -6.1rem;
   }
 
   .cartouche_hebergement_ligne1, .cartouche_hebergement_ligne2
   {
-    margin-bottom: 1rem;
-    margin-left: -2rem;
-    max-width: 100%;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 440px;
   }
 
-
+  .img_hebergement_ligne1, .img_hebergement_ligne2
+  { 
+  width: 440px;
+  }
 }
 
 .afficherplus
@@ -798,6 +814,11 @@ margin-left: -0.1rem;
 {
   color: #0065FC;
   margin: 3.5rem 0rem 0rem 2rem;
+}
+
+.etoile_none
+{
+  color: #D1D0D0;
 }
 
 .price
