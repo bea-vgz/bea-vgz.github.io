@@ -229,14 +229,12 @@ nav a:hover
 }
 
 
-
-
 @media screen and (max-width: 600px)
 {
 
   .logo
   {
-  width: 100px;
+  width: 120px;
   height: auto;
   margin-left: 2rem;
   }
@@ -276,6 +274,12 @@ nav a:hover
  {
   border-top: none;
   border-bottom: 3px solid #0065FC;
+ }
+
+ .inscription_nav
+ {
+  border-bottom: none;
+  font-family: ralewaybold;
  }
 
 }
@@ -699,7 +703,7 @@ margin-left: -0.1rem;
 
   .img_hebergement_ligne1, .img_hebergement_ligne2
   { 
-  width: 440px;
+   width: 440px;
   }
 }
 
@@ -963,16 +967,13 @@ margin-left: -0.1rem;
   .grande_cartouche_activités, .moyenne_cartouche_activités, .petite_cartouche_activités
   {
     margin-bottom: 2rem;
-    width: 100%;
-
+    
   }
 
   #Titre_activités
   {
     margin-left: 0.9rem;
   }
-
-
 
 
 }
