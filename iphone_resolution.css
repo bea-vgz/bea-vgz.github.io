@@ -7,23 +7,22 @@
 		padding-bottom: 0.5rem;
 	}
 
-	.logo
-	{
+	.logo {
 		display: flex;
 		width: 30%;
 		float: left;
 		padding: 1rem;
 	}
 
-	.header_nav
-	{
+	.header_nav {
 		width: 100%;
 	}
 
-	nav a {
+	.hebergement_nav, .activités_nav {
 		border-bottom: 3px solid #F2F2F2;
 		border-top: none;
 		width: 50%;
+		padding: 1rem;
 	}
 
 	nav a:hover {
@@ -41,7 +40,10 @@
 
 	.inscription_nav {
 		font-family: ralewaybold;
-		float: right;
+		border-bottom: none;
+		position: absolute;
+		top: 0.5rem;
+		right: 0.7rem;
 	}
 
 	/* main propriétés */
@@ -188,7 +190,8 @@
 	}
 
 	#Hébergement {
-		padding-left: 0.3rem;
+		padding-left: 0.2rem;
+		padding-bottom: 0.5rem;
 	}
 
 	.cartouche_hebergement {
@@ -206,7 +209,8 @@
 
 	.afficherplus a {
 		padding-bottom: 0rem;
-		margin-left: 0.7rem;
+		margin-left: 0.2rem;
+		font-family: ralewaybold;
 	}
 
 	/* activités */
@@ -219,7 +223,11 @@
 	#container_bloc_activités {
 		flex-direction: column;
 		width: 100%;
-		justify-content: space-between;
+		margin-bottom: 1rem;
+	}
+
+	#Activités {
+		padding-bottom: 0.5rem;
 	}
 
 	.grande_cartouche_activités, .moyenne_cartouche_activités, .petite_cartouche_activités {
