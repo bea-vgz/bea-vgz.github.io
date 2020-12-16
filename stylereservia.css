@@ -134,12 +134,12 @@ h4 {
 .logo {
 	max-width: 100%;
 	width: 8%;
-	position: relative;
 }
 
 .header_nav {
 	display: flex;	
 	max-width: 100%;
+	width: auto;
 }
 
 nav a {
@@ -147,30 +147,23 @@ nav a {
 	font-size: 1em;
 	text-decoration: none;
 	color: black;
-	border-top: 2px solid transparent;
+	border-top: 3px solid transparent;
 	padding: 2rem;
 	text-align: center;
 }
 
 nav a:hover {
 	color: #0065FC;
-	border-top: 2px solid #0065FC;
+	border-top: 3px solid #0065FC;
 }
 
 .hebergement_nav {	
-	border-top: 2px solid #0065FC;
+	border-top: 3px solid #0065FC;
 	color: #0065FC;
 }
 
 .inscription_nav {
-	font-family: ralewaymedium ;
-	font-size: 1em;
 	color: #0065FC;
-	text-decoration: none;
-	border-top: 2px solid transparent;
-	padding: 2rem;
-	text-align: center;
-	order: 4;
 }
 
 /* Main propriétés */
@@ -507,12 +500,12 @@ nav a:hover {
 }
 
 #container_bloc_activités {
-	max-width: 100%;
-	width: 100%;
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	margin-bottom: 3rem;
+    flex-wrap: wrap;
+    align-content: space-between;
+    width: 100%;
+    height: 55%;
+    margin-bottom: 2rem;
 }
 
 #Activités {
@@ -520,7 +513,6 @@ nav a:hover {
 	padding-bottom: 2rem;
 	font-size: 22px;
 	margin-left: 0rem;
-
 }
 
 .figure_activités {
@@ -534,6 +526,8 @@ nav a:hover {
 	cursor: pointer;
 	height: 36rem;
 	width: 23rem;
+	display: flex;
+	flex-direction: column;
 }
 
 .img_grande_cartouche {
@@ -551,7 +545,8 @@ nav a:hover {
 	cursor: pointer;
 	height: 20rem;
 	width: 23rem;
-	margin-bottom: 2rem;
+	display: flex;
+	flex-direction: column;
 }
 
 .img_moyenne_cartouche {
@@ -569,7 +564,8 @@ nav a:hover {
 	cursor: pointer;
 	height: 14rem;
 	width: 23rem;
-	margin-bottom: 2rem;
+	display: flex;
+	flex-direction: column;
 }
 
 .img_petite_cartouche {
@@ -578,6 +574,7 @@ nav a:hover {
 	object-position: top;
 	width: 100%;
 	border-radius: 1rem 1rem 0 0;
+	flex-direction: column;
 }
 
 /* activités_texte */
