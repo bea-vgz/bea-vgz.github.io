@@ -196,7 +196,8 @@
 		}
 
 	.afficherplus a {
-		margin-left: 2rem;
+		margin-left: 1.5rem;
+		font-family: ralewaybold;
 	}
 
 	/* activités */
@@ -211,6 +212,7 @@
 		flex-wrap: wrap;
 		justify-content: space-between;
 		margin: auto;
+		margin-bottom: 2rem;
 	}
 
 	.grande_cartouche_activités, .moyenne_cartouche_activités, .petite_cartouche_activités {
@@ -310,7 +312,7 @@
 	/* filtres */
 
 	#container_filtresite {
-		width: 100%;
+		width: auto;
 		display: flex;
 		flex-wrap: wrap;
 		margin-left: 1rem;
