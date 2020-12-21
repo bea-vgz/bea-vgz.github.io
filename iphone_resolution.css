@@ -1,5 +1,5 @@
-@media screen and (max-width: 600px)
-{
+@media screen and (max-width: 480px)
+{	
 
 	#container_header {
 		width: 100%;
@@ -112,11 +112,6 @@
 		display: flex;
 	}
 
-	.infologementtext {
-		font-family: ralewayregular ;
-		font-size: 0.9em;
-	}
-
 	/* main */
 
 	/* container global - hébergement + les plus populaires */
@@ -166,7 +161,7 @@
 	}
 
 	.titre_populaires {
-		font-size: 17px;	
+		padding-bottom: 0.5rem;
 	}
 
 	.text_populaires {
@@ -223,6 +218,7 @@
 	#container_bloc_activités {
 		flex-direction: column;
 		width: 100%;
+		height: auto;
 		margin-bottom: 1rem;
 	}
 
@@ -236,7 +232,7 @@
 		box-shadow: 0 0 16px #0000002e;
 		cursor: pointer;
 		margin-bottom: 1.5rem;
-		height: 12rem;
+		height: 11.5rem;
 		width: 100%;
 	}
 

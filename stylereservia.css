@@ -112,12 +112,20 @@ p {
 	font-size: 1em;
 }
 
-h3 {
+h1, h2, h3 {
 	font-family: ralewaybold ;
 }
 
-h4 {
-	font-family: ralewaybold;
+h1 {
+	font-size: 1.8em;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+h3 {
+	font-size: 1em;
 }
 
 /* header */
@@ -176,13 +184,8 @@ nav a:hover {
 
 /* En-tête */
 
-.titre { 
-	font-family: ralewaybold ;
-	font-size: 1.6em;
-}
-
 .description {
-	margin-top: -0.8rem;
+	margin-top: -0.5rem;
 	font-size: 1.2em;
 }
 
@@ -239,8 +242,6 @@ nav a:hover {
 }
 
 .filtre_titre {
-	font-family: ralewaybold;
-	font-size: 20px;
 	margin-bottom: 1rem;
 	display: flex;
 	align-items: center;
@@ -335,7 +336,6 @@ nav a:hover {
 #Hébergement { 
 	padding-top: 1.8rem;
 	padding-bottom: 1rem;
-	font-size: 22px;
 	padding-left: 2.5rem;
 }
 
@@ -379,11 +379,12 @@ nav a:hover {
 
 .titre_cartouche {
 	margin: -0.9rem 0rem -1rem 0.9rem;
-	font-size: 19px;
+	padding-top: 0.5rem;
+	padding-bottom: 0.2rem;
 }
 
 .text_cartouche {
-	margin: -0.6rem 0rem 0.7rem 0.9rem;
+	margin: 0rem 0rem 0.5rem 0.9rem;
 }
 
 .etoiles_hebergement {
@@ -422,7 +423,6 @@ nav a:hover {
 .titre_container_populaires {
 	display: flex;
 	justify-content: space-between;
-	font-size: 22px;
 	max-width: 100%;
 	width: 91%;
 	padding-top: 3rem;
@@ -474,12 +474,12 @@ nav a:hover {
 }
 
 .titre_populaires {
-	font-size: 19px;
-	margin-top: 1rem;	
+	margin-top: 1rem;
+	margin-bottom: 1rem;
 }
 
 .text_populaires {
-	margin-top: -1rem;
+	margin-top: -0.5rem;
 }
 
 .etoiles_populaires {
@@ -501,17 +501,17 @@ nav a:hover {
 
 #container_bloc_activités {
 	display: flex;
-    flex-wrap: wrap;
     align-content: space-between;
+    justify-content: space-between;
+    flex-flow: column wrap;
     width: 100%;
-    height: 55%;
+    height: 580px;
     margin-bottom: 2rem;
 }
 
 #Activités {
 	padding-top: 2rem;
 	padding-bottom: 2rem;
-	font-size: 22px;
 	margin-left: 0rem;
 }
 
@@ -524,14 +524,13 @@ nav a:hover {
 	border-radius: 1.3rem;
 	box-shadow: 0 0 16px #0000002e;
 	cursor: pointer;
-	height: 36rem;
-	width: 23rem;
+	height: 100%;
+	width: 22%;
 	display: flex;
-	flex-direction: column;
 }
 
 .img_grande_cartouche {
-	height: 32rem;
+	height: 32.5rem;
 	object-fit: cover;
 	object-position: center;
 	width: 100%;
@@ -543,14 +542,14 @@ nav a:hover {
 	border-radius: 1.3rem;
 	box-shadow: 0 0 16px #0000002e;
 	cursor: pointer;
-	height: 20rem;
-	width: 23rem;
+	height: 50%;
+	width: 22%;
 	display: flex;
 	flex-direction: column;
 }
 
 .img_moyenne_cartouche {
-	height: 16rem;
+	height: 14.5rem;
 	object-fit: cover;
 	object-position: center;
 	width: 100%;
@@ -562,19 +561,18 @@ nav a:hover {
 	border-radius: 1.3rem;
 	box-shadow: 0 0 16px #0000002e;
 	cursor: pointer;
-	height: 14rem;
-	width: 23rem;
+	height: 40%;
+	width: 22%;
 	display: flex;
 	flex-direction: column;
 }
 
 .img_petite_cartouche {
-	height: 10rem;
+	height: 10.75rem;
 	object-fit: cover;
-	object-position: top;
+	object-position: center;
 	width: 100%;
 	border-radius: 1rem 1rem 0 0;
-	flex-direction: column;
 }
 
 /* activités_texte */
@@ -585,9 +583,7 @@ nav a:hover {
 }
 
 .titre_activités {
-	font-size: 17px;
-	margin-left: 1rem;
-	margin-top: -0.5rem;
+	margin-left: 1.5rem;
 }
 
 /* footer */
@@ -598,7 +594,6 @@ nav a:hover {
 	background: #F2F2F2;
 	width: 100%;
 	height: auto;
-	align-items: flex-start;
 }
 
 .contenu_footer_bloc {
@@ -606,11 +601,13 @@ nav a:hover {
 	display: flex;
 	justify-content: space-between;
 	margin-left: 1rem;
+	padding-bottom: 1rem;
+	padding-top: 1rem;
 }
 
-footer ul h3 {
-	font-size: 1.2em;
+footer h3 {
 	font-family: ralewaybold;
+	margin-left: 2.5rem;
 }
 
 footer li {
@@ -628,182 +625,4 @@ footer a:hover {
 	cursor: pointer;
 	color: #0065FC;
 
-}
-
-@media screen and (min-width: 1320px) and (max-width: 1440px)
-{
-	.main
-	{
-		margin: auto;
-	    padding: 0 3rem;
-	    box-sizing: border-box;
-	}
-
-	/* header */
-
-	#container_header {
-		width: 97%;
-		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
-		margin: auto;
-	}
-
-	.logo {
-		display: flex;
-		width: 11%;
-		float: left;
-		padding: 1rem;
-	}
-
-	/* container globale - hébergement + les plus populaires */
-
-	#container_global {
-		flex-direction: column-reverse;
-		width: 100%;
-		margin: auto;
-		margin-top: 1rem;
-	}
-
-	/* container les plus populaires */
-
-	#container_lespluspopulaires {
-		background-color: #F2F2F2;
-		width: 100%;
-		border-radius: 1.25rem;
-	}
-
-	.titre_container_populaires {
-		width: 95%;
-		padding-bottom: 2rem;
-		padding-top: 2rem;
-	}
-
-	#container_cartouches_populaires {
-		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
-		width: 95%;
-		margin: auto;
-	}
-
-	.cartouche_populaires{
-		margin-bottom: 2rem;
-	}
-
-	.figure_populaires {	
-		display: flex;
-		margin: 0rem;
-	}
-
-	.img_populaires {   
-		height: 9rem;
-		width: 10rem;
-	}
-
-	.titre_populaires {
-		font-size: 17px;
-	}
-
-	.bloc_text_populaires {
-		margin-left: 1rem;
-		margin-right: 1rem;
-	}
-
-	.etoiles_populaires {
-		margin-top: 1.5rem;
-	}
-
-	/* container hébergements */
-
-	#container_hebergement {
-		background-color: #FFFFFF;
-		width: 100%;
-		height: auto;
-		border-radius: none;
-	}
-
-	#titre_container_hébergement {
-		padding-left: 0rem;
-	}
-
-	#container_cartouches_hebergement {
-		display: flex;
-		flex-wrap: wrap;
-		flex-direction: row;
-		justify-content: space-between;
-		width: 100%;
-		margin: auto;
-	}
-
-	#Hébergement{
-		padding-left: 0rem;
-	}
-
-	.cartouche_hebergement {
-		border-radius: 1.3rem;
-		margin-bottom: 1.5rem;
-	}
-
-	.img_hebergement { 
-		height: 9rem;
-		object-fit: cover;
-		object-position: center;
-		width: 24rem;
-		border-radius: 1rem 1rem 0 0;
-		}
-
-	.afficherplus a {
-		margin-left: 0rem;
-	}
-
-	/* activités */
-
-	#container_activités {
-		width: 100%;
-		margin: auto;
-		margin-bottom: 2rem;
-	}
-
-	#container_bloc_activités {
-		width: 100%;
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-between;
-		margin: auto;
-	}
-
-	.grande_cartouche_activités, .moyenne_cartouche_activités, .petite_cartouche_activités {
-		background-color: #FFFFFF;
-		border-radius: 1.3rem;
-		box-shadow: 0 0 16px #0000002e;
-		cursor: pointer;
-		margin-bottom: 2rem;
-		height: 13rem;
-		width: 24rem;
-	}
-
-	.img_grande_cartouche, .img_moyenne_cartouche, .img_petite_cartouche {
-		max-height: 100%;
-		height: 9.5rem;
-		object-fit: cover;
-		object-position: center;
-		width: 100%;
-		border-radius: 1rem 1rem 0 0;
-	}
-
-	/* footer */
-
-	#container_footer {
-		width: 100%;
-		height: auto;
-	}
-
-	.contenu_footer_bloc {
-		width: 80%;
-		margin: auto;
-		flex-direction: row;
-		justify-content: space-between;
-		margin-left: 1rem;
-	}
 }

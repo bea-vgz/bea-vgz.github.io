@@ -1,4 +1,4 @@
-@media screen and (min-width: 601px) and (max-width: 900px)
+@media screen and (min-width: 481px) and (max-width: 768px)
 {
 	.main
 	{
@@ -39,7 +39,7 @@
 
 	.description {
 		margin-top: -1rem;
-		font-size: 1.2em;
+		font-size: 1.3em;
 		margin-left: 1rem;
 	}
 
@@ -96,8 +96,7 @@
 	}
 
 	.infologementtext {
-		font-family: ralewayregular ;
-		font-size: 1em;   
+		font-family: ralewayregular;
 		margin-left: -0.3rem;
 	}
 
@@ -148,14 +147,6 @@
 		margin-left: 1rem;
 	}
 
-	.titre_populaires {
-		font-size: 19px;	
-	}
-
-	.text_populaires {
-		margin-top: -1rem;
-	}
-
 	.etoiles_populaires {
 		margin-top: 1.5rem;
 	}
@@ -169,8 +160,8 @@
 		border-radius: none;
 	}
 
-	#titre_container_hébergement {
-		padding-left: 2rem;
+	#Hébergement {
+		padding-left: 1.8rem;
 	}
 
 	#container_cartouches_hebergement {
@@ -208,8 +199,10 @@
 	}
 
 	#container_bloc_activités {
+		width: 100%;
+		height: auto;
 		display: flex;
-		flex-wrap: wrap;
+		flex-flow: row wrap;
 		justify-content: space-between;
 		margin: auto;
 		margin-bottom: 2rem;
@@ -221,7 +214,7 @@
 		box-shadow: 0 0 16px #0000002e;
 		cursor: pointer;
 		margin-bottom: 2rem;
-		height: 14rem;
+		height: 13rem;
 		width: 20.5rem;
 	}
 
@@ -232,6 +225,10 @@
 		object-position: center;
 		width: 100%;
 		border-radius: 1rem 1rem 0 0;
+	}
+
+	.titre_activités {
+		margin-top: -0.5rem;
 	}
 
 	/* footer */
@@ -251,7 +248,7 @@
 }
 
 
-@media screen and (min-width: 980px) and (max-width: 1100px)
+@media screen and (min-width: 1024px)
 {
 
 		.main
@@ -286,14 +283,12 @@
 	/* En-tête */
 
 	.titre { 
-		font-family: ralewaybold ;
-		font-size: 2em;
+		font-family: ralewaybold;
 		margin-left: 1rem;
 	}
 
 	.description {
 		margin-top: -1rem;
-		font-size: 1.2em;
 		margin-left: 1rem;
 	}
 
@@ -387,8 +382,8 @@
 		border-radius: none;
 	}
 
-	#titre_container_hébergement {
-		padding-left: 0rem;
+	#Hébergement {
+		padding-left: 1.8rem;
 	}
 
 	#container_cartouches_hebergement {
@@ -427,8 +422,9 @@
 
 	#container_bloc_activités {
 		width: 100%;
+		height: auto;
 		display: flex;
-		flex-wrap: wrap;
+		flex-flow: row wrap;
 		justify-content: space-between;
 		margin: auto;
 	}
@@ -450,6 +446,12 @@
 		object-position: center;
 		width: 100%;
 		border-radius: 1rem 1rem 0 0;
+	}
+
+	.titre_activités
+	{
+		margin-top: -0.2rem;
+		margin-left: 0.8rem;
 	}
 
 	/* footer */
