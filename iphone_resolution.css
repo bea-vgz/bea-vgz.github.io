@@ -81,6 +81,7 @@
 
 	.picto_recherche_responsive {
 		display: inline-flex;
+		background-color: #0065FC;
 		color: white;
 		border: solid 3.5px #0065FC;
 		border-radius: 1rem;
