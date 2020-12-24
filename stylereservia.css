@@ -200,9 +200,8 @@ nav a:hover {
 	background-color: #F2F2F2;
 	color: black;
 	justify-content: center;
-	border: solid 1.7px #F2F2F2;
 	border-radius: 1rem 0rem 0rem 1rem;
-	padding: 1rem 1.2rem;
+	padding: 1.1rem 1.2rem;
 }
 
 .caserecherche {
@@ -220,7 +219,7 @@ nav a:hover {
 	background-color: #0065FC;
 	color: white;
 	font-family: ralewayregular;
-	border: solid 1px #0065FC;
+	border: solid 1px;
 	border-radius: 0 1rem 1rem 0;
 	padding: 1rem 1rem;
 	font-size: 1rem;
