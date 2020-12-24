@@ -1,5 +1,10 @@
 @media screen and (max-width: 480px)
 {	
+	.main {
+		margin: auto;
+		padding: 0 0.6rem;
+		box-sizing: border-box;
+	}
 
 	#container_header {
 		width: 100%;
@@ -44,14 +49,6 @@
 		position: absolute;
 		top: 0.5rem;
 		right: 0.7rem;
-	}
-
-	/* main propriétés */
-
-	.main {
-		margin: auto;
-		padding: 0 0.6rem;
-		box-sizing: border-box;
 	}
 
 	/* En-tête */
