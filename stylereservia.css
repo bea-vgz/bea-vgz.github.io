@@ -174,19 +174,16 @@ nav a:hover {
 	color: #0065FC;
 }
 
-/* Main propriétés */
+/* Titre site */
 
-.main {
-	margin: auto;
-	padding: 0 3rem;
-	box-sizing: border-box;
+.titre {
+	margin-left: 3rem;
 }
-
-/* En-tête */
 
 .description {
 	margin-top: -0.5rem;
 	font-size: 1.2em;
+	margin-left: 3rem;
 }
 
 /* Module recherche */
@@ -194,6 +191,7 @@ nav a:hover {
 .recherche {
 	display: flex;
 	align-items: center;
+	margin-left: 3rem;
 }
 
 .localisationicon {
@@ -238,6 +236,7 @@ nav a:hover {
 	display: flex;
 	align-content: center;
 	margin-top: 1rem;
+	margin-left: 3rem;
 }
 
 .filtre_titre {
@@ -277,6 +276,14 @@ nav a:hover {
 .filtrerubrique a:hover {
 	color: #0065FC;
 	background-color: #F2F2F2;
+}
+
+/* Main propriétés */
+
+.main {
+	margin: auto;
+	padding: 0 3rem;
+	box-sizing: border-box;
 }
 
 /* infos */

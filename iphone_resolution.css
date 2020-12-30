@@ -1,10 +1,5 @@
 @media screen and (max-width: 480px)
 {	
-	.main {
-		margin: auto;
-		padding: 0 0.6rem;
-		box-sizing: border-box;
-	}
 
 	#container_header {
 		width: 100%;
@@ -51,14 +46,16 @@
 		right: 0.7rem;
 	}
 
-	/* En-tête */
+	/* Titre site */
 
 	.titre { 
 		font-family: ralewaybold ;
+		margin-left: 0.6rem;
 	}
 
 	.description {
 		margin-top: -0.8rem;
+		margin-left: 0.6rem;
 		font-size: 1em;
 	}
 
@@ -66,6 +63,7 @@
 
 	.recherche {
 		display: flex;
+		margin-left: 0.6rem;
 	}
 
 	.boutonrecherche {
@@ -80,7 +78,7 @@
 		display: inline-flex;
 		background-color: #0065FC;
 		color: white;
-		border: solid 3.5px #0065FC;
+		border: solid 3px #0065FC;
 		border-radius: 1rem;
 		padding: 1rem 1rem;
 		margin-left: -1rem;
@@ -93,6 +91,7 @@
 	#container_filtresite {
 		flex-direction: column;
 		margin-top: -0.5rem;
+		margin-left: 0.6rem;
 	}
 
 	.filtrerubrique {
@@ -102,14 +101,20 @@
 		margin-left: -0.3rem;
 	}
 
+	/* main */
+
+	.main {
+		margin: auto;
+		padding: 0 0.6rem;
+		box-sizing: border-box;
+	}
+
 	/* infos */
 
 	.infologement {
 		width: 100%;
 		display: flex;
 	}
-
-	/* main */
 
 	/* container global - hébergement + les plus populaires */
 
