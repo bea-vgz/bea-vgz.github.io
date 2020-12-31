@@ -1,5 +1,11 @@
 @media screen and (min-width: 481px) and (max-width: 768px)
 {
+	.main {
+		margin: auto;
+	    padding: 0 0.3rem;
+	    box-sizing: border-box;
+	}
+
 	/* header */
 
 	#container_header {
@@ -22,7 +28,7 @@
 		font-family: ralewaybold;
 	}
 
-	/* Titre site */
+	/* En-tête */
 
 	.titre { 
 		font-family: ralewaybold ;
@@ -66,15 +72,6 @@
 		margin: 0 1rem 1rem 1rem;
 	    display: flex;
 	    align-items: center;
-	}
-
-	/* main */
-
-	.main
-	{
-		margin: auto;
-	    padding: 0 0.3rem;
-	    box-sizing: border-box;
 	}
 
 	/* infos */
@@ -251,7 +248,13 @@
 
 @media screen and (min-width: 780px) and (max-width: 1024px)
 {
-	
+
+	.main {
+		margin: auto;
+	    padding: 0 0.3rem;
+	    box-sizing: border-box;
+	}
+
 	/* header */
 
 	#container_header {
@@ -305,12 +308,6 @@
 		display: flex;
 		flex-wrap: wrap;
 		margin-left: 1rem;
-	}
-
-	.main {
-		margin: auto;
-	    padding: 0 0.3rem;
-	    box-sizing: border-box;
 	}
 
 	/* info logement */
